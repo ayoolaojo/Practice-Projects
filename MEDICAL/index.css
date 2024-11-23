@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+header a:hover {
+   color: rgb(45, 45, 241);; 
+}
+
+
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    justify-content:space-between;
+    height: 40px;
+}
+
+.nav1div {
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.nav1 a {
+   margin-inline: 10px;
+   text-decoration: none;
+   color: rgb(121, 116, 116);
+   
+}
+
+#ex>i {
+margin-right: 8px;
+}
+
+#loc>i {
+    margin-right: 8px;
+}
+
+#loc {
+    margin-left: 50px;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:20px 5px 15px 30px;
+}
+
+.nav2-links>a {
+    margin-inline: 15px;
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+
+.banner {
+    background-image: url(./home-banner.jpg.webp);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+     padding-top: 200px;
+    padding-left: 50px; 
+    
+}
+
+.banner>h2 {
+    font-size: 50px;
+    
+}
+
+.banner>p {
+    color:rgb(148, 139, 139);
+    line-height: 25px;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#btn1 {
+    border: 0px;
+    height: 50px;
+    width: 180px;
+    background-color: blue;
+    color: white;
+}
+
+#btn1:hover{
+    background-color: white;
+    color: blue;
+}
+
+#btn2 {
+    border: 1px solid blue;
+    height: 50px;
+    width: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+#btn2:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* .banner>button {
+  height: 50px;
+  width: 200px;
+  /* margin-inline:5px; */
+
+
+
+
+.d2 {
+    background-color:rgb(45, 45, 241); 
+
+   height: 350px;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+   padding:5px ;
+}
+
+.d2-item {
+    height: 200px;
+    width: 280px;
+    background-color: white;
+    padding: 20px 0px 20px 30px;
+}
+
+.d2-item span {
+    margin-right: 10px;
+}
+
+.d2-item p {
+   color: rgb(148, 139, 139);
+   line-height: 30px;
+   margin-top: 10px;
+   
+}
+
+.d2-item h3 {
+    padding:10px 0px 0px 10px ; 
+    font-weight: lighter;
+}
+
+#it {
+    height: 200px;
+    width: 280px;
+    background-color: white;
+
+}
+
+#its {
+    height: 200px;
+    width: 600px;
+
+}
+
+#it h1 {
+    font-size: 250%;
+    margin-top: 50px;
+    font-weight: 550
+    
+    
+}
+
+#its p {
+    padding-left: 5%;
+    line-height: 150%;
+    color: rgb(148, 139, 139);
+    font-size:110% ;
+    margin-top: 50px;
+    font-weight: 100;
+   
+}
+
+.d3 {
+       height: 200px;
+       display: flex;
+       gap: 30px;
+       justify-content: center;
+       align-items: center;
+       padding:5px ;
+       /* background-color: blue; */
+}
+
+.d4 {
+    /* background-color: aqua; */
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 50px 0px 50px;
+}
+
+.div-item {
+    /* background-color: bisque; */
+    height: 400px;
+    width: 35%;
+    border: 0.5px solid rgb(194, 190, 190);
+    padding: 30px;
+
+}
+
+.div-item img {
+    border: 1px solid rgb(255, 250, 250);
+    background-color: rgb(241, 233, 233);
+    height: 100px;
+    width: 100px;
+    
+    border-radius:100px;
+}
+
+.div-item hr {
+    margin-top: 30px;
+}
+
+.div-item h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.div-item p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(133, 128, 128);
+    font-size: 95%;
+    line-height:25px ;
+}
+
+.div-item button {
+    margin-top: 20px;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: gray;
+    background-color: transparent;
+    font-size: 95%;
+    margin-left: -10px;
+
+
+}
+
+/* .div-item span {
+    border-bottom: 1px solid black;
+} */
+
+button:hover {
+    color: rgb(18, 18, 223);
+    border-bottom:1px solid blue;
+    transition: ease-out;
+    transition-duration: 5s;
+}
+
+.about {
+    background-color: rgba(212, 207, 207, 0.904);
+    background-image: url(./bg_1.png.webp);
+    height: 770px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 0%;
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+ 
+}
+
+.about-item{
+    width: 50vw;
+    height: 800px;
+    z-index: ;
+    /* background-color: darkgoldenrod; */
+}
+
+.about-item:nth-child(even) {
+    padding-right: 40px;
+}
+
+.about-item img {
+    width: 700px;
+    height: 600px;
+    margin-left: -210px;
+    margin-top: 170px;
+
+}
+
+.about-item h1 {
+    margin-top: 220px;
+    font-size: 250%;
+}
+
+#p1 {
+    margin-top: 25px;
+    color:rgb(44, 44, 167);
+    font-size: 110%;
+
+}
+
+#p2 {
+    margin-top: 25px;
+    color:rgb(100, 98, 98);
+    font-size: 110%;
+    margin-bottom: 20px;
+    line-height: 27px;
+
+    
+}
+
+#btn3 {
+    border: 0px;
+    letter-spacing: 1px;
+    height:40px;
+    font-size: 95%;
+    color:rgb(100, 98, 98) ;
+    background-color: transparent;
+    
+}
+
+#btn3:hover{
+    color: rgb(75, 195, 235);
+    border-bottom: 1px solid blue;
+}
+
+/* .med {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+} */
+
+.doc {
+    /* background-color: blue; */
+    height: 450px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+
+}
+
+.doc-item {
+    width: 30%;
+    height: 420px;
+    /* background-color: antiquewhite; */
+    border:0.5px solid rgb(194, 190, 190)
+}
+
+.doc-item img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.doc-sub {
+    padding: 10%;
+}
+
+.doc-sub h2{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.doc-sub p {
+    text-align: center;
+    margin-top: 5px;
+    color:rgb(100, 98, 98) ;
+    font-size: 105%;
+    margin-bottom: 20px;
+
+}
+
+.doc-sub hr {
+    margin-bottom: 15px;
+
+}
+
+.doc-sub i {
+    margin-inline: 5px;
+}
+#app {
+    padding: 5%;
+}
+
+
+.appointment {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0px 6px 5px 7px gray ; 
+    padding: 5%;
+    
+
+    
+
+
+}
+
+.appoint-item{
+
+    height: 560px;
+    width: 100%;
+
+}
+
+.appoint-item img {
+    height: 15px;
+    width: 15px;
+   
+}
+
+.appoint-item h1 {
+    margin-top: 40px;
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+
+.appoint-item p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.appoint-item img:nth-child(even) {
+    margin-left: 15px;
+}
+
+.appoint-item label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(105, 100, 100);
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    
+}
+
+.appoint-item input {
+    height: 50px;
+    width: 350px;
+    padding: 3%;
+   
+}
+
+.appoint-item textarea{
+    height: 120px;
+    width: 350px;
+    padding: 3%;
+}
+
+.appoint-item :placeholder-shown{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    
+}
+
+.appoint-item button {
+    margin-top: 40px;
+    border: 0;
+    color: white;
+    background-color: rgb(45, 45, 241);
+    height: 45px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

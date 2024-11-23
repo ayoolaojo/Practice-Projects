@@ -1,0 +1,692 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content:;
+    gap: 40px;
+
+}
+
+header img {
+    height: 50px;
+    width: 120px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav i {
+color: white;
+}
+
+nav {
+    display: flex;
+    gap: 55px;
+}
+
+nav a:hover {
+    color: red;
+
+    border: 1px solid white;
+}
+
+
+
+.welcome {
+    background-color:hsl(0, 3%, 6%); 
+    height: 600px;
+    width: 100%;
+    height: 600px;
+    width: 100%;
+ 
+ }
+
+
+
+ .welcome {
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    padding: 15%;
+    
+ }
+
+ .welcome span {
+    letter-spacing: 10px;
+    font-size: 130%;
+ }
+
+ .welcome button {
+    background-color: whitesmoke;
+    height: 40px;
+    width: 130px;
+    border-radius:10%;
+    border: 0;
+    color: red;
+    
+
+ }
+
+ .italian {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(187, 181, 157, 0.596);
+    display: flex;
+    gap: 0px;
+    padding: 0%;
+ }
+
+
+.item {
+    height: 500px;
+    width: 50%;
+    /* background-color: yellow; */
+    padding: 3%; 
+    text-align: center;
+    
+}
+
+.item h4 {
+    color: red;
+    font-size: 220%;
+
+}
+
+.item h2 {
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+.item p {
+    font-size: 110%;
+}
+
+.item h3,p {
+    color: gray;
+    font-weight: lighter;
+}
+
+.item img {
+    height: 420px;
+    width: 100%;
+    border-radius:5% ;
+}
+
+.discover {
+    background-image:url(./Discovery.jpg) ;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    align-items: center;
+    text-align:center;
+    padding: 10%;
+
+
+}
+
+
+
+.discover h2 {
+    color: red;
+    font-size: 170%;
+}
+
+.discover h1 {
+    color: white;
+    font-size: 350%;
+    letter-spacing: 10px;
+}
+
+
+.romantic {
+    height: 500px;
+    display: flex;
+    gap: 20px; 
+    padding: 3%;
+    justify-content: center;
+    background-color: #fcf8f8;
+
+}
+
+.item2 {
+    height: 75vh;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.item2 img {
+height: 30vh;
+width: 27.8vw;
+border-radius: 10%;
+
+}
+
+.item2 h3,h4 {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.menu {
+    /* background-color: red; */
+    height: 65vh;
+    padding: 3%;
+    justify-content: center;
+    display: flex;  
+    gap: 20px;
+
+
+}
+
+.item3 {
+/* background-color: blueviolet; */
+height: 60vh;
+width: 30%;
+}
+
+/* .item3 button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10%;
+    border: 0px;
+
+} */
+
+.item3:nth-child(1) {
+    background-image: url(./our-menu-01.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;    
+}
+
+.item3 >button{
+    border: 0px;
+    border-radius: 10%;
+    height: 35px;
+    width: 120px;
+    background-color:rgb(243, 243, 243);
+
+}
+
+.item3:nth-child(2) {
+    background-image: url(./our-menu-05.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+
+}
+
+.item3:nth-child(2)>button {
+    border: 0px;
+    border-radius: 10%;
+    height: 35px;
+    width: 120px;
+    background-color:rgb(243, 243, 243);
+}
+
+.item3:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+
+.half {
+    /* background-color: yellow; */
+    height: 30vh;    
+}
+
+.half:nth-child(1) {
+    background-image: url(./our-menu-08.jpg.webp);
+    height:30vh ;
+    /* background-color: green; */
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.half button {
+    border: 0px;
+    border-radius: 10%;
+    height: 35px;
+    width: 120px;
+    /* background-color:rgb(243, 243, 243); */
+} 
+
+.half:nth-child(2) {
+    background-image: url(./our-menu-10.jpg.webp);
+    height:30vh ;
+    /* background-color: green; */
+    background-size: cover;
+    border-radius: 10%;
+    background-position: center;
+}
+
+.menu2 {
+    height: 45vh;    
+    padding: 6%;
+    display: flex;
+    gap: 40px;
+}
+
+.menu2 :nth-child(1) {
+    height: 35vh;
+    width: 65%;
+    background-color: red;
+    border-radius: 7%;
+    background-image: url(./our-menu-13.jpg.webp);
+    background-size: cover;
+}
+
+
+.menu2 :nth-child(2) {
+    height: 35vh;
+    width: 35%;
+    background-color: red;
+    border-radius: 7%;
+    background-image: url(./our-menu-16.jpg.webp);
+    background-size: cover;
+}
+
+#menu2>button{
+    border: 0px;
+    border-radius: 10%;
+    height: 35px;
+    width: 120px;
+    background-color:rgb(243, 243, 243);
+}
+
+
+.container {
+    /* background-color: purple; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    padding-top: 15%;
+    
+
+
+}
+
+.con-item {
+    
+    width: 45%;
+    height: 50vh;
+    text-align: center;
+    border-radius: 0% 5% 5% 0%;
+    
+
+
+} .overall {
+    background-color: brown;
+    width: 100%;
+    height: 105vh;
+    background-image: url(./img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.overall p {
+    text-align:center;
+    padding-top: 7%;
+}
+
+.overall em {
+    color: red;
+    font-size: 200%;
+    font-weight:700;
+    font-style: italic;
+
+}
+
+.overall span {
+    letter-spacing: 5px;
+    font-size: 350%;
+    font-weight: 1000;
+    color: white;
+    
+}
+
+.con-item img {
+    width: 44.3vw;
+    height: 50vh;
+    border-radius: 5% 0% 0% 5%;
+} 
+
+
+#c2 {
+    background-color: rgb(255, 255, 255);
+
+    padding: 5%;
+
+}
+
+#c1 {
+    background-color: transparent;
+    border-radius: 5% 0 0 5%;
+    
+}
+
+#c2 h2, h3 {
+    letter-spacing: 2px;
+    font-weight: 10;
+    color: rgb(102, 100, 100);
+}
+
+.reservation {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    gap: 20px;
+    padding: 3%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.res-item {
+    /* background-color: yellow; */
+    height: 60vh;
+    width: 45%;
+}
+
+#res2 {
+    background-image: url(./booking-01.jpg\ \(1\).webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#res1 {
+    padding: 2%;
+    /* background-color: yellow; */
+    border-radius:5%;
+}
+
+#res1 p {
+    
+text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 170%;
+}
+
+#res1 button {
+    background-color: black;
+    color: white;
+    transform: translateX(120px);
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius:7%;
+
+}
+
+#res1 input {
+    /* border: 0px; */
+    height:40px;
+    text-align: center;
+    box-shadow:1px 5px 5px 1px rgb(161, 159, 159);
+    border-radius: 10%;
+    border: 0px;
+    
+}
+
+#inp1,#inp2,#inp5,#inp6 {
+    width: 180px;
+}
+
+#inp3 {
+    width: 120px;
+    margin-left: 20px;
+}
+
+#inp4{
+    width: 180px;
+    margin-left: 30px;
+    
+}#inp1,#inp5 {
+    transform: translateX(1px);
+}
+
+.review {
+    background-color: rgb(255, 251, 251);
+}
+
+#rev1 {
+    background-image:url(./Discovery.jpg);
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    /* display: flex;    
+    justify-content: center; */
+}
+
+#rev1 img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 100%;
+    margin: 20px auto;
+
+}
+
+#rev1 em {
+    color: red;
+    font-size: 160%;
+
+}
+
+
+#rev1 h3 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 200%;
+
+}
+
+#rev1 h4,h5 {
+    color: white;
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+#rev2 {
+    width: 100%;
+    height: 80vh;
+    /* background-color: green; */
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+    
+#rev{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#rev p {
+    color: red;
+    font-size: 150%;
+}
+
+#rev h3 {
+    color: black;
+    font-weight: 800;
+
+}
+
+
+.rev-item {
+    /* background-color: yellow; */
+    height: 65vh;
+    width:30%;
+    padding: 1%;
+    text-align: center;
+}
+
+.rev-item img {
+    height: 30vh;
+    width: 27vw;
+    padding: 0.1%;
+    border-radius: 5%;
+
+}
+
+.sign {
+    display: flex;
+    gap: 150px;
+    /* background-color: yellow; */
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    padding: 5%
+    
+}
+
+.sign p {
+    letter-spacing: 2px;
+
+}
+
+ .sign p::after {
+    content: ":";
+}
+
+.sign input {
+    
+    width: 200px;
+    height: 30px;
+    padding-left: 10%;
+    box-shadow: 1px 2px 2px 1px hsl(0, 8%, 72%);
+    border: 0;
+    border-radius: 7%;
+}
+
+
+.sign button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 7%;
+
+}
+
+footer {
+
+    background-color:hsl(0, 3%, 6%);
+
+    height: 75vh;
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    gap: 40px;
+
+}
+
+.f-item {
+    height: 65vh;
+    width: 30%;
+    /* background-color: yellow; */
+    padding: 2%;
+    /* background-color: red; */
+}
+
+.f-item h3 {
+    color: white;
+    font-weight: lighter;
+
+
+}
+
+
+
+.grid-container{
+    /* background-color: yellow; */
+    display: grid;
+    gap: 1px solid black;
+    padding:0%;
+    gap: 10px 1px;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    height: 100px;
+    width: 50px;
+    /* background-color: blue; */
+    border: 0px;
+    padding: 2%;
+
+}
+
+.grid-item img {
+    height:100px;
+    width: 50px;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
